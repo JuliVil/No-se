@@ -67,7 +67,7 @@ public class Main {
         int categoriaIndex = obtenerEntero(scanner);
         Producto.Categoria categoria = Producto.Categoria.values()[categoriaIndex - 1];
 
-        productos.add(new Producto(codigo, descripcion, precioUnitario, origenFabricacion, categoria));
+        productos.add(new Producto(codigo, descripcion, precioUnitario, origenFabricacion, categoria, true));
         System.out.println("Producto creado exitosamente.");
     }
 
